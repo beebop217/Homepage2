@@ -1,0 +1,109 @@
+<!--Startpage by Tayumpee-->
+<!--facebook.com/yourwaterlord-->
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>~</title>
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+	<body>
+		<div class="maincontainer">
+			<div class="bottomcontainer">
+				<!--<div class="button" id="btn1" onclick = "show('main1');hide('main2');tog('btn1');toh('btn2');"></div>
+				<div class="button" id="btn2" onclick = "show('main2');hide('main1');tog('btn2');toh('btn1');"></div>-->
+				<div class="searchbar">
+					<form name="form1" action="http://google.com/search" method="get" >
+						<input type="text" autocomplete="off" autofocus="" placeholder="google search..." name="q" class="searchinput"></input>
+					</form>
+				</div>
+			</div>
+			<div class="time" id="time">
+				<script>
+					//document.getElementById("main").innerHTML = Date();
+					function updateClock() {
+						var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+						var m = new Date();
+						var dateString =
+						  (days[ m.getDay() ]) + " " +
+						  ("0" + (m.getMonth()+1)).slice(-2) +"/"+
+						  ("0" + m.getDate()).slice(-2) + "/" +
+						  m.getFullYear() +" "+
+						  ("0" + m.getHours()).slice(-2) + ":" +
+						  ("0" + m.getMinutes()).slice(-2) + ":" +
+						  ("0" + m.getSeconds()).slice(-2);
+
+						// set the content of the element with the ID time to the formatted string
+						document.getElementById('time').innerHTML = dateString;
+
+						// call this function again in 1000ms
+						setTimeout(updateClock, 1000);
+					}
+					updateClock(); // initial call
+				</script>
+			</div>
+			<div class="count" id"count">
+				<script type="text/javascript">
+					today = new Date();
+					BigDay = new Date("April 12 2016");
+					msPerDay = 24 * 60 * 60 * 1000 ;
+					timeLeft = (BigDay.getTime() - today.getTime());
+					e_daysLeft = timeLeft / msPerDay;
+					daysLeft = Math.floor(e_daysLeft);
+					e_hrsLeft = (e_daysLeft - daysLeft)*24;
+					hrsLeft = Math.floor(e_hrsLeft);
+					minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+					document.write(daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes  </H4> until dark Souls 3 releases");
+			</script>
+		</div>
+			<div class="main" id="main1">
+				<div class="sidebar" style="background-image: url(img/m1.png);"></div>
+				<div class="welcome">
+					<h1 align="center" id="message" class="expandUp"></h1>
+							<script type="text/javascript">
+											var d = new Date();
+											var n = d.getHours();
+
+											if ( n == 23 || n == 0) {
+															message = "おやすみ";
+											} else if ( n >= 1 && n <= 4 ) {
+															message = "おやすみ";
+											} else if ( n >= 5 && n <= 11 ) {
+															message = "おはよう";
+											} else if ( n >= 12 && n <= 17 ) {
+															message = "こんにちは";
+											} else if ( n >= 18 && n <= 22 ) {
+															message = "こんばんは";
+											}
+
+											document.getElementById("message").innerHTML = message;
+							</script>
+				</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://4chan.org/a/" class="clink" target="_blank">/a/</a>
+						<li><a href="http://4chan.org/b/" class="clink" target="_blank">/b/</a>
+						<li><a href="http://4chan.org/c/" class="clink" target="_blank">/c/</a>
+						<li><a href="http://4chan.org/g/" class="clink" target="_blank">/g/</a>
+						<li><a href="http://4chan.org/w/" class="clink" target="_blank">/w/</a>
+						<li><a href="http://4chan.org/wg/" class="clink" target="_blank">/wg/</a>
+						<li><a href="http://4chan.org/wsg/" class="clink" target="_blank">/wsg/</a>
+					</ul>
+					<ul>
+						<li><a href="http://youtube.com" class="clink" target="_blank">youtube</a>
+						<li><a href="http://reddit.com/r/all" class="clink" target="_blank">reddit</a>
+						<li><a href="http://ebay.com" class="clink" target="_blank">ebay</a>
+						<li><a href="http://massdrop.com" class="clink" target="_blank">massdrop</a>
+						<li><a href="http://amazon.com" class="clink" target="_blank">amazon</a>
+					</ul>
+				</div>
+			</div>
+			<!--<div class="main" id="main2" style="display:none">
+				<div class="sidebar" style="background-image: url(img/m2.png);"></div>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLzw11YiexAaizVIHrZ4LZMV7YAvItkAU2" frameborder="0" allowfullscreen></iframe>
+			</div>-->
+		</div>
+	</body>
+</html>

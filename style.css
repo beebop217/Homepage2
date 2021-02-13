@@ -1,0 +1,248 @@
+@font-face
+{
+    font-family:"Gotham Rounded Medium", sans-serif !important;
+    src: url('gotham-rounded-medium.tff');
+}
+
+input {
+	font-family: "Gotham Rounded Medium", sans-serif !important;
+	font-size:15px;
+}
+
+body{
+	background-repeat: no-repeat fixed;
+	background-size: 115%;
+	font-family: "Gotham Rounded Medium", sans-serif !important;
+	font-size:9px;
+	/*background-color:#1D1E2A;
+	-webkit-font-smoothing: antialiased !important;
+	/*background-image: url("img/wallpaper.jpg");
+	background-repeat: no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;/**/
+}
+
+.maincontainer {
+	width:672px;
+	height:319px;
+	position: absolute;
+	top: 0px;
+	bottom:100px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+	background-color:transparent;
+}
+
+.main {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8A7B70;
+	position: absolute;
+	top: -2px;
+    width: 536px;
+	height: 300px;
+    left: -2px;
+    right: 190px;
+    margin: auto;
+	background-color:#1D1E2A;
+	text-align:center;
+}
+
+.maincontents {
+	width:100%;
+	height:100%;
+}
+
+.button {
+	width:12px;
+	height:12px;
+	float: left;
+	margin-right:2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8A7B70;
+	background-color:#ffffff;
+}
+
+.searchbar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8A7B70;
+    width: auto;
+	height: 12px;
+	background-color:#1D1E2A;
+	overflow: hidden;
+}
+
+.searchinput {
+	line-height:13px;
+	height:12px;
+	top:-1px;
+	position:relative;
+	margin-left:1px;
+	margin-right:1px;
+	width:100%;
+	border:none;
+	font-family: "Gotham Rounded Medium", sans-serif !important;
+	font-size:10px;
+	padding-bottom: 0px;
+	padding-top:0px;
+	padding-left:2px;
+	padding-right:2px;
+	outline:none;
+}
+
+.searchinput:focus {
+	outline:none;
+	border:none;
+}
+
+.marqueebar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8A7B70;
+    width: 300px;
+	height: 12px;
+	line-height:12px;
+	float:right;
+	margin-left:2px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+}
+
+.marquee2 {
+  overflow:hidden;
+  width: 296px;
+  height: 100%;
+  margin: 0;
+  padding-left:2px;
+  padding-right:2px;
+  top:1px;
+  line-height: 12px;
+  position:absolute;
+  text-align: center;
+}
+
+.bottomcontainer {
+	width:540px;
+	height:12px;
+	position:absolute;
+	left:-2px;
+	top:305px;
+}
+
+.sidebar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8A7B70;
+	position: absolute;
+	top: -2px;
+	bottom:200px;
+    width: 129px;
+	height: 319px;
+    left: 541px;/**/
+	background-color:#1D1E2A;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(img/1.png);
+}
+
+/*.sideimage {
+	background-image: url(img/1.png);
+	top: -2px;
+	bottom:200px;
+    width: 129px;
+	height: 319px;
+    left: 541px;
+    position: relative;
+    background-size: cover;
+}/**/
+
+.time {
+	color:#74857C;
+	font-family: "Gotham Rounded Medium" sans-serif !important;
+	font-size: 10px;
+	position: absolute;
+	top: 1px;
+	width: auto;
+	height: auto;
+	left: 2px;
+}
+
+.welcome {
+	line-height:18px;
+	font-family: "Gotham Rounded Medium" sans-serif !important;
+	font-size:15px;
+	position:absolute;
+	top:50px;
+	width:300px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+  color: #74857C;
+}
+
+.bookmarkscontainer {
+	width:auto;
+	top: 140px;
+	position:relative;
+    display: inline-block;
+}
+
+.marquee-text{
+
+	position:absolute;
+	top:1px;
+	padding-left:2px;
+	padding-right:4px;
+}
+
+ul {
+	width:75px;
+	list-style-type:none;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+li {
+	text-align:left;
+	padding-left:3px;
+	padding-right:3px;
+	height:16px;
+	line-height:16px;
+}
+
+li:hover {
+	background-color:#14151F;
+}
+
+a {
+	text-decoration:none;
+	font-size:16px;
+	height:12px;
+	line-height:12px;
+	color:#8A7B70;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.clink {
+	font-size: 16px;
+	text-decoration:none;
+	line-height: 16px;
+	color:#8A7B70;
+}
+
+.clink:hover{
+	text-decoration:underline;
+  color: #74857C;
+}
