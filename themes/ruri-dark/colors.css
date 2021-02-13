@@ -1,0 +1,161 @@
+/*  Copyright 2014 gokoururi
+    This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See the COPYING file for more details. */
+
+body {
+    background-image: url("https://lbda.net/dqTe.png");/*http://i.imgur.com/XF2Ov0q.png*/
+}
+
+.name-highlight {
+    color: #183340;
+}
+
+main {
+    background-color: #373E4D;/*#282A2E*/
+    border-color: #373E4D;
+}
+
+h1 {
+    color: #FFF;
+}
+
+.subtitle {
+    color: #FFF;
+}
+
+.searchBar {
+    color: rgba(0,0,0,0);
+    border-color: lightgrey;
+}
+.searchBar:hover {
+    box-shadow: 0 0 5px #FFF;
+    border-color: #FFF;
+}
+
+.searchBar::-webkit-input-placeholder { color: rgba(0,0,0,0); }
+.searchBar:-moz-placeholder           { color: rgba(0,0,0,0); opacity: 1; } /* Fx 4-18 */
+.searchBar::-moz-placeholder          { color: rgba(0,0,0,0); opacity: 1; } /* Fx 19+ */
+.searchBar:-ms-input-placeholder      { color: rgba(0,0,0,0); } /* IE 10+ */
+
+.searchBar:focus::-webkit-input-placeholder { color: rgba(100,100,100,1); }
+.searchBar:focus:-moz-placeholder           { color: rgba(100,100,100,1); opacity: 1; } /* Fx 4-18 */
+.searchBar:focus::-moz-placeholder          { color: rgba(100,100,100,1); opacity: 1; } /* Fx 19+ */
+.searchBar:focus:-ms-input-placeholder      { color: rgba(100,100,100,1); } /* IE 10+ */
+/* Specyfing opacity for Fx is only resetting the defaults. Alpha from rgba will still work. */
+
+.searchBar:focus {
+    color: rgba(100,100,100,1);
+}
+
+.search_google {
+    background-image: url('images/icons/google.png');
+}
+.search_youtube {
+    background-image: url('images/icons/youtube.png');
+}
+.search_wikipedia {
+    background-image: url('images/icons/wikipedia.jpg');
+}
+
+/* Grey button */
+.button_grey > a,
+.button_grey > ul {
+    border-color: #434C5E;/*#373B41*/
+}
+.button_grey > a,
+.button_grey > ul > li > a {
+    color: #D8A6F4;/*#81A2BE*/
+    background: #4C566A;/*#1D1F21*/
+}
+.button_grey > a:after {
+    border-left-color: #373E4D;
+}
+.button_grey:hover > a,
+.button_grey > ul > li > a:hover {
+    color: #FA5AA4;
+    background: ;
+}
+.button_grey:hover > a,
+.button_grey:hover > ul {
+    border-color: #183340;
+}
+.button_grey:hover > a:after {
+    border-left-color: #FA5AA4;
+}
+
+/* Green button */
+/*.button_green > ul {
+    border-color: #91b476;
+}
+.button_green > a,
+.button_green > ul > li > a {
+    color: #43644a;
+    background: #729a64;
+}
+.button_green > a:after {
+    border-left-color: #91b476;
+}
+.button_green:hover > a,
+.button_green > ul > li > a:hover {
+    color: #269926;
+    background: #67E667;
+}
+.button_green:hover > a,
+.button_green:hover > ul {
+    border-color: #67E667;
+}
+.button_green:hover > a:after {
+    border-left-color: #269926;
+}
+*/
+/* column standard colors */
+.column {
+    border-right-color: #b148ee;
+}
+.column > a,
+.column > ul > li:before {
+    color: #c577f2;
+}
+.column > a {
+    text-shadow: 0 0.5px #373B41;
+}
+.column > ul > li > a {
+      color: #D8A6F4;
+}
+
+/* purple column highlight */
+.column_purple:hover > a,
+.column_purple:hover > ul > li:before {
+    color: #3c3a5c;
+}
+.column_purple:hover > a {
+    text-shadow: 0 0.5px #b9b6d9;
+}
+.column_purple > ul > li > a:hover {
+    color: #b9b6d9;
+}
+
+/* pink column highlight */
+.column_pink:hover > a,
+.column_pink:hover > ul > li:before {
+    color: #70293b;
+}
+.column_pink:hover > a {
+    text-shadow: 0 0.5px #782d3a;
+}
+.column_pink > ul > li > a:hover {
+    color: #782d3a;
+}
+
+/* green column highlight */
+.column_green:hover > a,
+.column_green:hover > ul > li:before {
+    color: #43644a;
+}
+.column_green:hover > a {
+    text-shadow: 0 0.5px #729a64;
+}
+.column_green > ul > li > a:hover {
+    color: #91b476;
+}
