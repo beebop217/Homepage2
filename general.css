@@ -8,6 +8,8 @@
 }
 html {
     background-image: url('bg.png');
+    background-repeat: repeat;
+    background: url('bg.png');
     height: 100%;
     margin: 0;
     padding: 165px;
