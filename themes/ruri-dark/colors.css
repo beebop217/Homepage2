@@ -3,8 +3,8 @@
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the COPYING file for more details. */
 
-body {
-        background-image: url("https://www.cameronsworld.net/img/content/25/bg.png");
+head {
+        background-image: url(themes/ruri-dark/images/bg.png);
 }
 
 .name-highlight {
