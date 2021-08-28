@@ -3,8 +3,8 @@
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the COPYING file for more details. */
 @font-face {
-    font-family: 'Gotham Rounded Medium';
-    src: url('gotham-rounded-medium.ttf');
+    font-family: 'Anonymous Pro Regular';
+    src: url('anonymous-pro.regular.ttf');
 }
 html {
     background-image: url('bg.png');
@@ -14,6 +14,7 @@ html {
     font-size: 0;
 }
 body {
+    overflow: hidden; /* Hide scrollbars */
     height: 100%;
     margin: 0;
     padding: 0;
